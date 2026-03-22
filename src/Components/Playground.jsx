@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { FiDownload, FiMaximize, FiUploadCloud, FiX, FiCheckCircle } from 'react-icons/fi';
 import { supabase } from './Auth/supabaseClient';
 import API_BASE_URL from './Auth/Config';
-import '../Styles/Playground.css';
+import '../Styles/playground.css';
 
 const Playground = () => {
   const [html, setHtml] = useState('<h1>Hello World</h1>');
